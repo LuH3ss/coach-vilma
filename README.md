@@ -32,18 +32,15 @@ npm start
 - Imágenes en la raíz del proyecto (`foto-perfil-2-recortada.jpeg`, `flyer-vilma.jpg`, etc.)
 - `capturas-cliente/` — capturas de secciones para revisión con el cliente
 
-## Subir a GitHub
+## Subir a GitHub (solo con Git)
 
-El proyecto ya tiene Git inicializado. Si aún no iniciaste sesión en GitHub CLI:
-
-```bash
-gh auth login
-```
-
-Luego creá el repositorio y subí el código (elegí el nombre que quieras):
+1. Creá un repositorio vacío en [github.com/new](https://github.com/new) (sin README ni `.gitignore`).
+2. En la carpeta del proyecto:
 
 ```bash
-gh repo create vilma-coaching-landing --public --source=. --remote=origin --push
+git remote add origin https://github.com/TU_USUARIO/TU_REPO.git
+git branch -M main
+git push -u origin main
 ```
 
-Para repositorio privado, agregá `--private` en lugar de `--public`.
+Git te pedirá usuario y contraseña. La contraseña debe ser un **Personal Access Token** de GitHub (Settings → Developer settings → Personal access tokens).
