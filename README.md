@@ -1,32 +1,7 @@
-# Coach Vilma — Landing
+# Coach Vilma
 
-Sitio web de presentación para la Dra. Vilma G. Duschak (coaching ontológico profesional).
+Landing page para la **Dra. Vilma G. Duschak**, coaching ontológico profesional.
 
-## Requisitos
+El sitio presenta su propuesta de acompañamiento, trayectoria científica, método de trabajo, perfiles de consultantes y testimonios. Incluye contacto directo por WhatsApp.
 
-- Node.js 18+
-- npm
-
-## Instalación y uso
-
-```bash
-npm install
-npm run dev
-```
-
-Sitio en desarrollo: [http://localhost:3000](http://localhost:3000)
-
-## Producción
-
-```bash
-npm run build
-npm start
-```
-
-## Tecnologías
-
-Next.js · React · Tailwind CSS · Framer Motion
-
-## Repositorio
-
-[github.com/LuH3ss/coach-vilma](https://github.com/LuH3ss/coach-vilma)
+Sitio de una sola página, pensado para uso del cliente (no es un proyecto de portfolio ni librería reutilizable).
